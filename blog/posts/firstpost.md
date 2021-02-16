@@ -1,26 +1,38 @@
 ---
-title: This is my first post.
-description: This is a post on My Blog about agile frameworks.
-date: 2018-05-01
+title: New blog.
+description: Just setting up the blog. 
+date: 2021-02-16
 tags:
-  - another-tag
+  - random
 layout: layouts/post.njk
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+I wanted to bring back my TLD, and I've been meaning to blog again
+after a long hiatus. It's not that I have anything specific to write
+about yet, but I do get opinionated about technical topics and
+occasionally nontechnical topics as well.  The initial blog's (now
+deleted) purpose was to get my foot in the door into a development
+career as technical marketing. In 2010 this seemed like a good idea,
+but many have also had that idea since then. Consequently, I've had
+trouble finding consistent content that I was motivated to read.
+There are a lot of intro-level articles made by and for the new
+developer.  Additionally, I can find something good to read on some
+very specialized and more difficult topics. At this point I'm too
+impatient for the easy reads and after paying attention for a minute
+or two will jump into skim mode to see if there's anything worth a
+closer look.  For the harder reads, I either know too little about the
+topic or it would be too risky to apply in my place of work, so it can
+feel largely useless at that moment.
 
-## Section Header
+Since then, twitter replaced blogging and reading blogs for me.
+Unfortunately, while it is a nice way to find content and keep up with
+people, it promotes distracted thought. I think most can agree that
+when writing larger blocks of text, you can more easily clarify each
+thought and test it against your other thoughts to see if makes
+sense. With the smaller format, it seems like I'm susceptible to
+interruption by (probably also distracted) people posting in
+real-time.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
-
-``` text/2-3
-// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
-
-// Test with a line break above this line.
-console.log('Test');
-```
+So, when I ask myself what's the purpose of this blog, I think it's to
+remove those distractions from my own thought process and to rebuild
+my own reading and writing habits.
