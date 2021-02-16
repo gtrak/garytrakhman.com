@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Vanity TLD</title>
+	<subtitle>Vanity Domain</subtitle>
+	
+	<link href="https://garytrakhman.com/feed/feed.xml" rel="self"/>
+	<link href="https://garytrakhman.com/"/>
+	<updated>2021-02-16T00:00:00Z</updated>
+	<id>https://example.com/</id>
+	<author>
+		<name>Your Name Here</name>
+		<email>self@garytrakhman.com</email>
+	</author>
+	
+	<entry>
+		<title>New blog.</title>
+		<link href="https://garytrakhman.com/posts/firstpost/"/>
+		<updated>2021-02-16T00:00:00Z</updated>
+		<id>https://garytrakhman.com/posts/firstpost/</id>
+		<content type="html">&lt;p&gt;I wanted to bring back my TLD, and I&#39;ve been meaning to blog again&lt;br /&gt;
+after a long hiatus. It&#39;s not that I have anything specific to write&lt;br /&gt;
+about yet, but I do get opinionated about technical topics and&lt;br /&gt;
+occasionally nontechnical topics as well.  The initial blog&#39;s (now&lt;br /&gt;
+deleted) purpose was to get my foot in the door into a tech career.&lt;br /&gt;
+It was tech marketing. In 2010 this seemed like a good idea, but I&lt;br /&gt;
+think a lot of other people had that idea since then. Consequently,&lt;br /&gt;
+I&#39;ve had trouble finding consistent tech blogs that are worth reading.&lt;br /&gt;
+There are a lot of intro-level articles made by and for the new&lt;br /&gt;
+developer. Additionally, I can find something good to read on some&lt;br /&gt;
+very specialized topics. At this point, I&#39;m either too impatient for&lt;br /&gt;
+the easy stuff, or know too little (or frankly try to avoid the risk&lt;br /&gt;
+at work) to apply the harder writing.&lt;/p&gt;
+&lt;p&gt;Since then, twitter largely replaced blogging and reading blogs for&lt;br /&gt;
+me, but I think it only promotes disjointed thought. I think most can&lt;br /&gt;
+agree that when writing larger posts you more easily clarify each&lt;br /&gt;
+thought and test it against others instead of being constantly&lt;br /&gt;
+interrupted by other people seeking distraction at that moment.&lt;/p&gt;
+&lt;p&gt;So, when I ask myself what&#39;s the purpose of this blog, I think it&#39;s to&lt;br /&gt;
+remove those distractions from my own thought process and to rebuild&lt;br /&gt;
+my own reading and writing habits.&lt;/p&gt;
+</content>
+	</entry>
+</feed>

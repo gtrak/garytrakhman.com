@@ -1,0 +1,19 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Vanity TLD",
+  "home_page_url": "https://garytrakhman.com/",
+  "feed_url": "https://example.com/feed/feed.json",
+  "description": "Longer than a tweet",
+  "author": {
+    "name": "Your Name Here",
+    "url": "https://garytrakhman.com/about"
+  },
+  "items": [{
+      "id": "https://garytrakhman.com/posts/firstpost/",
+      "url": "https://garytrakhman.com/posts/firstpost/",
+      "title": "New blog.",
+      "content_html": "<p>I wanted to bring back my TLD, and I've been meaning to blog again<br>\nafter a long hiatus. It's not that I have anything specific to write<br>\nabout yet, but I do get opinionated about technical topics and<br>\noccasionally nontechnical topics as well.  The initial blog's (now<br>\ndeleted) purpose was to get my foot in the door into a tech career.<br>\nIt was tech marketing. In 2010 this seemed like a good idea, but I<br>\nthink a lot of other people had that idea since then. Consequently,<br>\nI've had trouble finding consistent tech blogs that are worth reading.<br>\nThere are a lot of intro-level articles made by and for the new<br>\ndeveloper. Additionally, I can find something good to read on some<br>\nvery specialized topics. At this point, I'm either too impatient for<br>\nthe easy stuff, or know too little (or frankly try to avoid the risk<br>\nat work) to apply the harder writing.</p>\n<p>Since then, twitter largely replaced blogging and reading blogs for<br>\nme, but I think it only promotes disjointed thought. I think most can<br>\nagree that when writing larger posts you more easily clarify each<br>\nthought and test it against others instead of being constantly<br>\ninterrupted by other people seeking distraction at that moment.</p>\n<p>So, when I ask myself what's the purpose of this blog, I think it's to<br>\nremove those distractions from my own thought process and to rebuild<br>\nmy own reading and writing habits.</p>\n",
+      "date_published": "2021-02-16T00:00:00Z"
+    }
+  ]
+}
