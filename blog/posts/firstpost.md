@@ -1,5 +1,5 @@
 ---
-title: New blog.
+title: New blog
 description: Just setting up the blog. 
 date: 2021-02-16
 tags:
@@ -8,21 +8,20 @@ layout: layouts/post.njk
 ---
 
 I wanted to bring back my TLD, and I've been meaning to blog again
-after a long hiatus. It's not that I have anything specific to write
-about yet, but I do get opinionated about technical topics and
-occasionally nontechnical topics as well.  The initial blog's (now
-deleted) purpose was to get my foot in the door into a development
-career as technical marketing. In 2010 this seemed like a good idea,
-but many have also had that idea since then. Consequently, I've had
-trouble finding consistent content that I was motivated to read.
-There are a lot of intro-level articles made by and for the new
-developer.  Additionally, I can find something good to read on some
-very specialized and more difficult topics. At this point I'm too
-impatient for the easy reads and after paying attention for a minute
-or two will jump into skim mode to see if there's anything worth a
-closer look.  For the harder reads, I either know too little about the
-topic or it would be too risky to apply in my place of work, so it can
-feel largely useless at that moment.
+after a long hiatus. I don't have anything specific to write about
+yet, but I do get opinionated about technical topics and occasionally
+nontechnical topics as well.  My previous (now deleted) blog's purpose
+was to self-promote and further my development career. In 2010 this
+seemed like a good idea, but many others have also had that same idea
+since then. Consequently, there's a lot of content that I have trouble
+motivating myself to read.  There are a lot of intro-level articles
+made by and for the new developer.  Occasionally, I can also find
+something more specialized and difficult that seems interesting. At
+this point I'm too impatient for the easy reads and after paying
+attention for a minute or two will jump into skim mode to see if
+there's anything worth a closer look.  For the harder reads, I either
+know too little about the topic or it would be too risky to apply in
+my place of work, so it can feel largely useless at that moment.
 
 Since then, twitter replaced blogging and reading blogs for me.
 Unfortunately, while it is a nice way to find content and keep up with
