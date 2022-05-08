@@ -74,10 +74,10 @@ would have gone differently if it were rewritten today. I really now prefer for 
 community project with clear process and community governance. It&#39;s not enough to commit to no breaking
 changes and only do incremental improvements.&lt;/p&gt;
 &lt;p&gt;At this rate, Clojure is long in the tooth. Type systems are actually worth it, and a language very
-similar to Clojure could be made with one. Would that be better? In general I feel there is too much
-post-hoc rationalization of prior decisions. Writing a language and leading a language&#39;s growth sounds
-hard, and I haven&#39;t done it, but I don&#39;t think other communities spend as much effort justifying past
-decisions so much.&lt;/p&gt;
+similar to Clojure could be made with one. Would that be better? Can you definitively say that it
+wouldn&#39;t be better, all other things the same? In general I feel there is too much post-hoc rationalization of
+prior decisions. Writing a language and leading a language&#39;s growth sounds hard, and I haven&#39;t done it,
+but I don&#39;t think other communities spend as much effort justifying past decisions so much.&lt;/p&gt;
 &lt;p&gt;Having attempted to teach Clojure to others a few times, it&#39;s tiring to constantly apologize
 for its warts, and the gap between other languages is thinning especially for more common
 use-cases. It used to be the case that there was a clear payoff after the initial learning hump, but
