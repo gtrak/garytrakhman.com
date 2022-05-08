@@ -7,7 +7,6 @@ templateClass: tmpl-post
   {%- if date %} - <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>{% endif %}
 </h3>
 
-
 {{ content | safe }}
 
 <hr>

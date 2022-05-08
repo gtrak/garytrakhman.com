@@ -1,20 +1,20 @@
 {
-  "title": "Vanity TLD",
-  "url": "https://garytrakhman.com/",
+  "title": "Gary Trakhman's tech blog",
+  "url": "https://blog.garytrakhman.com/",
   "description": "Longer than a tweet",
   "feed": {
-    "subtitle": "Vanity Domain",
+    "subtitle": "Gary Trakhman's tech blog feed",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://blog.garytrakhman.com/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://blog.garytrakhman.com/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
+    "name": "Gary Trakhman",
     "email": "self@garytrakhman.com",
-    "url": "https://garytrakhman.com/about"
+    "url": "https://blog.garytrakhman.com/about"
   }
 }
