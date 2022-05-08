@@ -17,7 +17,8 @@
 		<link href="https://blog.garytrakhman.com/posts/2022-05-07-fp-tipping-point/"/>
 		<updated>2022-05-07T00:00:00Z</updated>
 		<id>https://blog.garytrakhman.com/posts/2022-05-07-fp-tipping-point/</id>
-		<content type="html">&lt;p&gt;Functional programming had an interesting allure to me. I started
+		<content type="html">&lt;p&gt;or, why I&#39;m just not that into Clojure going forward.&lt;/p&gt;
+&lt;p&gt;Functional programming had an interesting allure to me. I started
 off my serious programming by learning C and C++, then quickly found
 them to be onerous and full of pitfalls. I reached for Python (2.5) as an
 alternative and found I could try stuff out much more quickly, but it was
