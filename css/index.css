@@ -33,6 +33,7 @@ p,
 }
 a[href] {
   color: var(--blue);
+  text-decoration: underline;
 }
 a[href]:visited {
   color: var(--navy);
@@ -209,4 +210,9 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+ul {
+  list-style-position: outside;
+  margin-left: 2em;
 }

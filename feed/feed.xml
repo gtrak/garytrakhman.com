@@ -5,7 +5,7 @@
 	
 	<link href="https://garytrakhman.com/feed/feed.xml" rel="self"/>
 	<link href="https://garytrakhman.com/"/>
-	<updated>2021-02-16T00:00:00Z</updated>
+	<updated>2022-05-07T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Your Name Here</name>
@@ -13,35 +13,101 @@
 	</author>
 	
 	<entry>
+		<title>The Functional Programming Tipping Point</title>
+		<link href="https://garytrakhman.com/posts/2022-05-07-fp-tipping-point/"/>
+		<updated>2022-05-07T00:00:00Z</updated>
+		<id>https://garytrakhman.com/posts/2022-05-07-fp-tipping-point/</id>
+		<content type="html">&lt;p&gt;Functional programming had an interesting allure to me. I started
+off my serious programming by learning C and C++, then quickly found
+them to be onerous and full of pitfalls. I reached for Python (2.5) as an
+alternative and found I could try stuff out much more quickly, but it was
+also just very messy once your program got large.&lt;/p&gt;
+&lt;p&gt;I resolved to &lt;em&gt;really learn&lt;/em&gt; &#39;Object-Oriented Programming&#39; by reading &#39;Design Patterns&#39;
+and other resources I could find, but to be honest, it seemed like a lot of work for
+little benefit. I thought there were 2 possibilities, either it was complete trash,
+or if I just wasn&#39;t smart enough. I suspected that we were working around language
+limitations.&lt;/p&gt;
+&lt;p&gt;Eventually, I came across &lt;a href=&quot;https://norvig.com/design-patterns/&quot;&gt;Peter Norvig&#39;s great presentation&lt;/a&gt;
+on how design patterns present themselves in dynamic languages, and it suddenly all made sense.
+I had an existence proof that you can just stop repeating yourself so much if you use a different
+language. The presentation suggests lisp, but I didn&#39;t see Common Lisp or Scheme to be feasible for
+my job prospects. Python was fine, but I was feeling some friction with the GIL and it was a worse fit
+for the J2EE work I was doing early in my career. The timing lined up with Clojure gaining traction,
+so I resolved to learn more about it and get a chance to work with it.&lt;/p&gt;
+&lt;p&gt;I then spent a few years as a satisfied clojure enthusiast, I really loved the power the
+language provided and felt like I could really do anything with it. I did work on a few very interesting
+problems early on, and they just couldn&#39;t have gotten done in Java. I saw the value of using all the
+features Clojure provided in certain contexts. It seemed like a no-brainer to continue down that path,
+so I did. Some forces conspired to change my opinion, though.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;My particular local tech job market was relatively small. It was tough to attempt to
+introduce Clojure at companies that didn&#39;t already use it. It&#39;s not &#39;just a jar&#39;. I enjoyed
+working on a team more than being the solo clojure expert. Even when one company formally decided to adopt
+Clojure, too many other issues prevented it from being effective.&lt;/li&gt;
+&lt;li&gt;Other languages got better. In particular, we saw the rise and fall of many experiments, some of
+which are still in use and some which became dead ends.
+&lt;ul&gt;
+&lt;li&gt;CoffeeScript: used it, rewrote all we had to ES6 once that landed.&lt;/li&gt;
+&lt;li&gt;Elixir: looked like it took a lot of developers from Ruby, but I didn&#39;t use it.&lt;/li&gt;
+&lt;li&gt;Elm, Purescript, ReasonML: showed there was some pent-up demand for applying FP principles on the
+frontend, but didn&#39;t catch on.&lt;/li&gt;
+&lt;li&gt;Rust: Not really FP, but it had some interesting ideas and took some of the audience. Companies
+that scaled up on scripting languages are rewriting core parts in Rust for performance.&lt;/li&gt;
+&lt;li&gt;Ocaml: used it professionally. I like the language, but it was frustrating experience. It got
+some more attention due to ReasonML. I&#39;ll write what I like and don&#39;t like about it in more detail separately.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Node.js grow from a niche use-case to being a mainstream language.&lt;/li&gt;
+&lt;li&gt;Microsoft changed the game with VSCode, .NET Core on Linux/Mac, and Typescript.
+&lt;ul&gt;
+&lt;li&gt;Flow deserves honorable mention, but I think Typescript won.&lt;/li&gt;
+&lt;li&gt;VSCode and LSP have dominated the IDE scene. I still use Emacs where it&#39;s more convenient,
+but I have been using VSCode for javascript, python, and C# and am quite happy with it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While all this was happening, Clojure barely changed at all. Other people have written much
+around issues in the Clojure community. Personally, I found it frustrating to have no roadmap and
+no idea what the future holds. There were a lot of early decisions that made sense in 2008, but
+would have gone differently if it were rewritten today. I really now prefer for Clojure to have been a
+community project with clear process and community governance. It&#39;s not enough to commit to no breaking
+changes and only do incremental improvements.&lt;/p&gt;
+&lt;p&gt;At this rate, Clojure is long in the tooth. Type systems are actually worth it, and a language very
+similar to Clojure could be made with one. Would that be better? In general I feel there is too much
+post-hoc rationalization of prior decisions. Writing a language and leading a language&#39;s growth sounds
+hard, and I haven&#39;t done it, but I don&#39;t think other communities suffer try to justify pasts decisions so much.&lt;/p&gt;
+&lt;p&gt;Having attempted to teach Clojure to others a few times, it&#39;s tiring to constantly apologize
+for its warts, and the gap between other languages is thinning especially for more common
+use-cases. It used to be the case that there was a clear payoff after the initial hump, but
+now it&#39;s less obvious since fewer people are coming from Java.&lt;/p&gt;
+&lt;p&gt;I now find myself in the surprising position where I am doing my prototyping in Clojure or
+Ocaml, but consider Javascript(Typescript) to be more suitable for production. I didn&#39;t expect
+to end up here.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>New blog</title>
-		<link href="https://garytrakhman.com/posts/firstpost/"/>
-		<updated>2021-02-16T00:00:00Z</updated>
-		<id>https://garytrakhman.com/posts/firstpost/</id>
-		<content type="html">&lt;p&gt;I wanted to bring back my TLD, and I&#39;ve been meaning to blog again&lt;br /&gt;
-after a long hiatus. I don&#39;t have anything specific to write about&lt;br /&gt;
-yet, but I do get opinionated about technical topics and occasionally&lt;br /&gt;
-nontechnical topics as well.  My previous (now deleted) blog&#39;s purpose&lt;br /&gt;
-was to self-promote and further my development career. In 2010 this&lt;br /&gt;
-seemed like a good idea, but many others have also had that same idea&lt;br /&gt;
-since then. Consequently, there&#39;s a lot of content that I have trouble&lt;br /&gt;
-motivating myself to read.  There are a lot of intro-level articles&lt;br /&gt;
-made by and for the new developer.  Occasionally, I can also find&lt;br /&gt;
-something more specialized and difficult that seems interesting. At&lt;br /&gt;
-this point I&#39;m too impatient for the easy reads and after paying&lt;br /&gt;
-attention for a minute or two will jump into skim mode to see if&lt;br /&gt;
-there&#39;s anything worth a closer look.  For the harder reads, I either&lt;br /&gt;
-know too little about the topic or it would be too risky to apply in&lt;br /&gt;
-my place of work, so it can feel largely useless at that moment.&lt;/p&gt;
-&lt;p&gt;Since then, twitter replaced blogging and reading blogs for me.&lt;br /&gt;
-Unfortunately, while it is a nice way to find content and keep up with&lt;br /&gt;
-people, it promotes distracted thought. I think most can agree that&lt;br /&gt;
-when writing larger blocks of text, you can more easily clarify each&lt;br /&gt;
-thought and test it against your other thoughts to see if makes&lt;br /&gt;
-sense. With the smaller format, it seems like I&#39;m susceptible to&lt;br /&gt;
-interruption by (probably also distracted) people posting in&lt;br /&gt;
-real-time.&lt;/p&gt;
-&lt;p&gt;So, when I ask myself what&#39;s the purpose of this blog, I think it&#39;s to&lt;br /&gt;
-remove those distractions from my own thought process and to rebuild&lt;br /&gt;
+		<link href="https://garytrakhman.com/posts/2022-05-07-firstpost/"/>
+		<updated>2022-05-07T00:00:00Z</updated>
+		<id>https://garytrakhman.com/posts/2022-05-07-firstpost/</id>
+		<content type="html">&lt;p&gt;I&#39;ve been meaning to blog again after a long hiatus. Early in my
+development career it was trendy to do so, but in the 2020s there
+are just too many blogs out there.&lt;/p&gt;
+&lt;p&gt;This one will host some technical opinions relevant to what I am working
+on, and I will strive to not repeat what is available elsewhere. I will
+also not provide tutorials, but I expect might have particular crevices
+of technologies to explore and show to others.&lt;/p&gt;
+&lt;p&gt;Twitter largely replaced blogging and reading blogs for me over the last
+few years. Unfortunately, while it is a nice way to find content and
+keep up with people, it also promotes distracted thought. I think most can
+agree that when writing larger blocks of text, you can more easily
+clarify each thought and test it against your other thoughts to see
+if makes sense. With the smaller Twitter format, it seems like I&#39;m
+susceptible to interruption by likely distracted people posting in real-time.
+I need the the bar to be a little higher.&lt;/p&gt;
+&lt;p&gt;So, when I ask myself what&#39;s the purpose of this blog, I think it&#39;s to
+remove those distractions from my own thought process and to rebuild
 my own reading and writing habits.&lt;/p&gt;
 </content>
 	</entry>

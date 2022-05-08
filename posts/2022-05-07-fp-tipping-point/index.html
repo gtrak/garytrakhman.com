@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Functional Programming Tipping Point</title>
+    <meta name="description" content="Longer than a tweet">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+    <!-- Basscss -->
+    <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Vanity TLD">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Vanity TLD">
+  </head>
+  <body>
+    <header class="row p2">
+      <h2><a class="column" href="/">Vanity TLD</a></h2>
+      <ul class="nav column column-50 column-offset-25">
+        <li class="nav-item"><a class="h3" href="/">Home</a></li>
+        <li class="nav-item"><a class="h3" href="/about/">About Me</a></li>
+      </ul>
+    </header>
+
+    <main class="tmpl-post">
+      <h3>
+  The Functional Programming Tipping Point - <time datetime="2022-05-07">07 May 2022</time>
+</h3>
+
+<p>Functional programming had an interesting allure to me. I started
+off my serious programming by learning C and C++, then quickly found
+them to be onerous and full of pitfalls. I reached for Python (2.5) as an
+alternative and found I could try stuff out much more quickly, but it was
+also just very messy once your program got large.</p>
+<p>I resolved to <em>really learn</em> 'Object-Oriented Programming' by reading 'Design Patterns'
+and other resources I could find, but to be honest, it seemed like a lot of work for
+little benefit. I thought there were 2 possibilities, either it was complete trash,
+or if I just wasn't smart enough. I suspected that we were working around language
+limitations.</p>
+<p>Eventually, I came across <a href="https://norvig.com/design-patterns/">Peter Norvig's great presentation</a>
+on how design patterns present themselves in dynamic languages, and it suddenly all made sense.
+I had an existence proof that you can just stop repeating yourself so much if you use a different
+language. The presentation suggests lisp, but I didn't see Common Lisp or Scheme to be feasible for
+my job prospects. Python was fine, but I was feeling some friction with the GIL and it was a worse fit
+for the J2EE work I was doing early in my career. The timing lined up with Clojure gaining traction,
+so I resolved to learn more about it and get a chance to work with it.</p>
+<p>I then spent a few years as a satisfied clojure enthusiast, I really loved the power the
+language provided and felt like I could really do anything with it. I did work on a few very interesting
+problems early on, and they just couldn't have gotten done in Java. I saw the value of using all the
+features Clojure provided in certain contexts. It seemed like a no-brainer to continue down that path,
+so I did. Some forces conspired to change my opinion, though.</p>
+<ul>
+<li>My particular local tech job market was relatively small. It was tough to attempt to
+introduce Clojure at companies that didn't already use it. It's not 'just a jar'. I enjoyed
+working on a team more than being the solo clojure expert. Even when one company formally decided to adopt
+Clojure, too many other issues prevented it from being effective.</li>
+<li>Other languages got better. In particular, we saw the rise and fall of many experiments, some of
+which are still in use and some which became dead ends.
+<ul>
+<li>CoffeeScript: used it, rewrote all we had to ES6 once that landed.</li>
+<li>Elixir: looked like it took a lot of developers from Ruby, but I didn't use it.</li>
+<li>Elm, Purescript, ReasonML: showed there was some pent-up demand for applying FP principles on the
+frontend, but didn't catch on.</li>
+<li>Rust: Not really FP, but it had some interesting ideas and took some of the audience. Companies
+that scaled up on scripting languages are rewriting core parts in Rust for performance.</li>
+<li>Ocaml: used it professionally. I like the language, but it was frustrating experience. It got
+some more attention due to ReasonML. I'll write what I like and don't like about it in more detail separately.</li>
+</ul>
+</li>
+<li>Node.js grow from a niche use-case to being a mainstream language.</li>
+<li>Microsoft changed the game with VSCode, .NET Core on Linux/Mac, and Typescript.
+<ul>
+<li>Flow deserves honorable mention, but I think Typescript won.</li>
+<li>VSCode and LSP have dominated the IDE scene. I still use Emacs where it's more convenient,
+but I have been using VSCode for javascript, python, and C# and am quite happy with it.</li>
+</ul>
+</li>
+</ul>
+<p>While all this was happening, Clojure barely changed at all. Other people have written much
+around issues in the Clojure community. Personally, I found it frustrating to have no roadmap and
+no idea what the future holds. There were a lot of early decisions that made sense in 2008, but
+would have gone differently if it were rewritten today. I really now prefer for Clojure to have been a
+community project with clear process and community governance. It's not enough to commit to no breaking
+changes and only do incremental improvements.</p>
+<p>At this rate, Clojure is long in the tooth. Type systems are actually worth it, and a language very
+similar to Clojure could be made with one. Would that be better? In general I feel there is too much
+post-hoc rationalization of prior decisions. Writing a language and leading a language's growth sounds
+hard, and I haven't done it, but I don't think other communities suffer try to justify pasts decisions so much.</p>
+<p>Having attempted to teach Clojure to others a few times, it's tiring to constantly apologize
+for its warts, and the gap between other languages is thinning especially for more common
+use-cases. It used to be the case that there was a clear payoff after the initial hump, but
+now it's less obvious since fewer people are coming from Java.</p>
+<p>I now find myself in the surprising position where I am doing my prototyping in Clojure or
+Ocaml, but consider Javascript(Typescript) to be more suitable for production. I didn't expect
+to end up here.</p>
+
+
+<hr>
+<ul><li>Previous: <a href="/posts/2022-05-07-firstpost/">New blog</a></li>
+</ul>
+
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /posts/2022-05-07-fp-tipping-point/ -->
+  </body>
+</html>
