@@ -4,6 +4,8 @@ description: "Define the problem we're trying to solve"
 pubDate: "Feb 21 2023"
 ---
 
+This is post 1 in a series on mitigating tech debt.
+
 # Why
 
 A common issue that many engineering teams face is tension between the priority of tech debt and the priority of

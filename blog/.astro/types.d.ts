@@ -74,6 +74,13 @@ declare module 'astro:content' {
   collection: "blog",
   data: InferEntrySchema<"blog">
 },
+"2023-02-24-robust-risk-reduction-2.md": {
+  id: "2023-02-24-robust-risk-reduction-2.md",
+  slug: "2023-02-24-robust-risk-reduction-2",
+  body: string,
+  collection: "blog",
+  data: InferEntrySchema<"blog">
+},
 "first-post.md": {
   id: "first-post.md",
   slug: "first-post",

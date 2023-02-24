@@ -1,7 +1,7 @@
 ---
 title: "First post"
 description: "Lorem ipsum dolor sit amet"
-pubDate: "Feb 21 2023"
+pubDate: "Feb 20 2023"
 ---
 
 ## Hello World!
