@@ -6,20 +6,32 @@ pubDate: "Feb 21 2023"
 
 # Why
 
-Over the years, I've worked on a few different kinds of engineering teams with varying skill levels and in different domains.
-Each team had its own strengths and weaknesses. A common problem all those engineering teams have had is a constant tension
-of tech debt against company priorities, targets, and commitments.
-
-The discourse around tech debt is unsatisfying when the time comes to decide what should actually get done about it in specific
-cases, and thought I would write up some thoughts on some different approaches.
+A common issue that many engineering teams face is tension between the priority of tech debt and the priority of
+product commitments. Although it's an issue that many engineers have experienced, the definition of tech debt and
+communication of it up and down the organization is still very difficult. It's a very fuzzy phrase that can mean a lot of things.
+It can be difficult to articulate as an engineer, and difficult to understand as a nontechnical stakeholder. There are
+some common traps when it comes time to actually do something specific to alleviate tech debt.
 
 # What is problematic about tech debt?
 
 ## It's hard to measure
 
+Tech debt is often not captured by existing metrics and processes, and it is often not a result of an intentional decision.
+One way tech debt manifests itself is as an accumulation of widespread papercuts due to how the existing system makes different
+types of work easy or hard.
+
+In UX jargon, there is a concept of
+[affordances](https://uxplanet.org/ux-design-glossary-how-to-use-affordances-in-user-interfaces-393c8e9686e4). A system's
+developer UX makes certain behaviors easy or hard. It's often the case that requirements change or some other practical limit
+is reached, requiring you to reevaluate fundamental system assumptions.
+
+When the system is no longer practical for current and future requirements, the burden is on the engineer or engineering manager
+to identify a common thread, organize the issues, and communicate them. There often aren't great incentives to do this on top
+of a normal workload.
+
 Consequently, it's easy to ignore existing debt, easy to pile up more debt, and hard to demonstrate value from reducing debt.
 
-## Different devs and stakeholders have different viewpoints
+## Different developers and stakeholders have different viewpoints
 
 In general, when planning who will do a piece of work, it's usually better in the short term (at the expense of the long term)
 to hand it to the person who is most familiar in that area and can get it done the quickest. As a result of repeatedly
@@ -32,20 +44,21 @@ parts of the codebase and might have differing views about what's painful and ti
 
 We are all working with partial information, and it's just tough to bridge those gaps.
 
-## If left unchecked, it will eventually block product priorities
+## If left unchecked, tech debt will eventually block product priorities
 
 Developers and stakeholders don't know what the future holds, but it's key to work hard to keep your options open. Some future
 work can become 'too hard' to realistically get done, depending on the team process, ticket discipline, and competing priorities.
 For example, you don't need to know what particular clients will come in to guess what multiple of today's load will cause the
-database to fall down, or to know how many concurrent clients you can onboard given your team capacity. When you start nearing those limits, all other work becomes 'too hard'. Avoid those!
+database to fall down, or to know how many concurrent clients you can onboard given your team capacity. When you start nearing
+those limits, all other work becomes 'too hard'. Avoid those!
 
 At a less stressful time, we should try to avoid having implementation costs drive what features are delivered. Ideally, we
 deliver functionality with the most impact, an impact that should be much higher than its implementation costs and higher
 than the value from competing priorities.
 
-The 'agile' process framework recommends delivering early and often. If what you want to deliver is too large, you should reduce scope until
-you can deliver an MVP and get some market feedback. If the tech debt of the existing system prevents you from scoping down enough to deliver a viable MVP within a sprint or two (when some incoming crisis preempts the work, and you lose momentum),
-your choices are realistically:
+An 'agile' process framework recommends delivering early and often. If what you want to deliver is too large, you should reduce scope until
+you can deliver an MVP and get some market feedback. If the tech debt of the existing system prevents you from scoping down enough to deliver
+a viable MVP within a sprint or two (when some incoming crisis preempts the work, and you lose momentum), your choices are realistically:
 
 ### Don't attempt to deliver it
 
@@ -58,12 +71,12 @@ significant changes. You, and everyone around you will be frustrated.
 
 <img class="mx-auto" src="https://imgs.xkcd.com/comics/standards.png" />
 
-How many of those prototypes can your team realistically maintain at a production-ready level?
+#### How many of those prototypes can your team realistically maintain in production?
 
 The answer is that you probably can't maintain many one-offs, especially if they're written by just one or two people in a
 different toolchain.
 
-How many prototypes have you worked on and delivered, and subsequently thrown away?
+#### How many prototypes have you worked on and delivered, and subsequently thrown away?
 
 Again, the answer is probably not that many. Working code is likely to stick around, so there should be a
 plan and bandwidth to integrate it into the existing system. It can be tough to advocate for migration
