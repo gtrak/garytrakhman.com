@@ -82,4 +82,4 @@ always so clear.
 
 ## Is there another approach?
 
-In part 3, I'll propose one.
+In part 3, I'll attempt to propose one.
