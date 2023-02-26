@@ -1,8 +1,10 @@
 ---
-title: "Robust Risk Reduction - Part 1/-"
+title: "Robust Risk Reduction - Part 1/3"
 description: "Define the problem we're trying to solve"
 pubDate: "Feb 21 2023"
 ---
+
+This is post 1 in a series on mitigating tech debt.
 
 # Why
 
